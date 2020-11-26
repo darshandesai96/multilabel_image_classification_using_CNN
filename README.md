@@ -1,5 +1,7 @@
 # multilabel_image_classification_using_CNN
 1. This project is to classify MultiLabel data using CNN.
-2. You can provide various test cases for this code.
-3. With image named as bearcat it can be distinguished between three different categories such as bear, bearcat or cat.
-4. If given image has no similarity with above classes then it will be returned as no match.
+2. This is made for used with transfer learning.
+3. The CNN will classify the data as Bear, Bearcats or Cats.
+4. Used efficientnetB0 along with multi-stage unfreezing to tune the CNN.
+5. Got accuracy around 96% for the validation set.
+
